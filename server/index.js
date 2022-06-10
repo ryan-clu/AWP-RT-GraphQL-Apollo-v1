@@ -8,7 +8,7 @@ const server = new ApolloServer({
     resolvers
 });
 
-// let PORT = 1338;
+// let PORT = 4000;
 server.listen().then(({url}) => { 
     console.log(`Your API is running at: ${url} :)`);
 });
